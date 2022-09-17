@@ -1,0 +1,9 @@
+.appWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.profilePix {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
