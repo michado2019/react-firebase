@@ -1,10 +1,10 @@
+import React from 'react';
 import './App.css';
-
+import Home from './pages/Home';
 function App() {
   return (
     <div className="appWrapper">
-      <img src='./images/profile-pix.jpg' alt='img' className='profilePix' />
-      <h1 className='profileName'>Michael Adeshina</h1>
+       <Home />
     </div>
   );
 }

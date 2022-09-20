@@ -1,0 +1,106 @@
+.welcomePage-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+}
+.welcomePage-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+.welcomePage-top_flex {
+  display: flex;
+  align-items: center;
+}
+.welcomePage-welcome {
+  font-size: 32px;
+  color: rgb(64, 62, 62);
+}
+.welcomePage-User_Img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  position: fixed;
+  top:0;
+  left: 13%;
+}
+.welcomePage-userName{
+  color:rgb(77, 70, 33)
+}
+.welcomePage-signOut_btn {
+  font-weight: 600;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 16px;
+  color: white;
+  background-color: rgb(150, 47, 47);
+  border: 0;
+  cursor: pointer;
+  margin-top: 60px;
+  position: fixed;
+  top: -7.9%;
+  right: 12.5%;
+}
+.welcomePage-signOut_btn:hover{
+    background-color: red;
+}
+.welcomePage-instruction {
+  font-size: 24px;
+  margin: 30px 0;
+  line-height: 55px;
+}
+.welcomePage-wish_btn {
+  width: 40%;
+  padding: 15px 0;
+  border: 0;
+  font-weight: 600;
+  border-radius: 5px;
+  margin: 20px 0;
+  color: white;
+  background-color: rgb(205, 182, 49);
+}
+.welcomePage-wish_div{
+    display: none;
+    height: 100%;
+}
+.welcomePage-wish_btn:hover {
+  background-color: gold;
+  transition: all 0.3s;
+}
+.welcomePage-wish {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(64, 62, 62);
+}
+.welcomePage-celebrant {
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(64, 62, 62);
+}
+.welcomePage-note {
+  font-size: 20px;
+  color: #212121;
+  line-height: 36px;
+}
+.welcomePage-cheers{
+    font-size: 24px;
+}
+@media (max-width: 300px) {
+  .welcomePage-instruction {
+    margin: 24px 0;
+    line-height: 32px;
+  } 
+}
+@media (max-width: 768px) {
+  .welcomePage-signOut_btn {
+    right: 0;
+  }
+  .welcomePage-User_Img{
+    left: 1%;
+  }
+}
